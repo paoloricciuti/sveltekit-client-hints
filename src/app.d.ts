@@ -3,7 +3,7 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface Locals extends Record<string, string | undefined> {}
 		// interface PageData {}
 		// interface Platform {}
 	}
