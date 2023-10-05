@@ -27,6 +27,16 @@
 			"svelte": "./dist/vite/index.js"
 		}
 	},
+	"typesVersions": {
+		">4.0": {
+			"index.d.ts": [
+				"./dist/index.d.ts"
+			],
+			"vite": [
+				"./dist/vite/index.d.ts"
+			]
+		}
+	},
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
